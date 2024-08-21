@@ -1,0 +1,165 @@
+:root {
+    color-scheme: light dark;
+}
+
+/*EXPLORER*/
+.titulo_explorer {
+    display: inline;
+}
+
+.titulo_explorer h3 {
+    display: inline;
+}
+
+.titulo_explorer img {
+    width: 3vh;
+    padding-left: 2%;
+}
+
+.img_funcionexplorer img {
+    width: 40vh;
+}
+
+/*SEARCH*/
+.search {
+    margin-top: 15vw;
+}
+
+.titulo-search {
+    display: inline;
+}
+
+.titulo-search h3 {
+    display: inline;
+}
+
+.titulo-search img {
+    width: 3vh;
+    padding-left: 2%;
+}
+
+.img-funcion-search img {
+    width: 40vh;
+}
+
+/*word wrap*/
+.word_wrap {
+    margin-top: 15vw;
+}
+
+.acivar_word_wrap img {
+    width: 50vh;
+}
+
+.word_wrap_antes img {
+    width: 150vh;
+}
+
+.word_wrap_despues img {
+    width: 130vh;
+}
+
+/*debug*/
+.debug {
+    margin-top: 15vw;
+}
+
+.titulo-debug img {
+    width: 4vh;
+}
+
+.titulo-debug h3 {
+    display: inline;
+}
+
+.img-funcion-debug img {
+    width: 40vh;
+}
+
+/*Extenciones*/
+
+.extensiones {
+    margin-top: 15vh;
+}
+
+.code-container {
+    width: 80vw;
+    /* Ajusta el ancho del contenedor */
+    height: 150px;
+    /* Ajusta el alto del contenedor */
+    overflow: auto;
+    /* Agrega scroll si el contenido sobrepasa el tamaño */
+    background-color: #2d2d2d;
+    /* Fondo oscuro (opcional) */
+    padding: 10px;
+    /* Espacio interno para que el texto no esté pegado a los bordes */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    margin: 0 auto;
+
+}
+
+.extensiones-recomendadas-prettier img {
+    width: 150vh;
+    margin-bottom: 15vh;
+}
+
+.extensiones-recomendadas-materialicon img {
+    width: 150vh;
+    margin-bottom: 15vh;
+}
+
+.extensiones-recomendadas-intellicode img {
+    width: 150vh;
+    margin-bottom: 15vh;
+}
+
+.extensiones-recomendadas-liveserver img {
+    width: 150vh;
+    margin-bottom: 15vh;
+}
+
+.extensiones-recomendadas-ident img {
+    width: 150vh;
+    margin-bottom: 15vh;
+}
+
+.extensiones-recomendadas-linkedediting img {
+    width: 150vh;
+    margin-bottom: 150vh;
+}
+
+/*Configuracion*/
+
+.configuracion{
+    margin-top: 15vh;
+}
+
+.configuracion-autosave img{
+    width: 150vh;
+    margin-bottom: 15vh;
+    margin-top: 5vh;
+}
+
+.configuracion-linkedediting img {
+    width: 150vh;
+    margin-bottom: 15vh;
+}
+
+.configuracion-enablepreview {
+    
+    margin-top: 15vh;
+}
+
+.configuracion-filesexclude {
+    
+    margin-top: 15vh;
+}
+
+.configuracion-terminalintegrated{
+    margin-top: 15vh;
+}
+
+.configuracion-editorfontsize{
+    margin-top: 15vh;
+}

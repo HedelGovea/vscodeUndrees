@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism-okaidia.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <p>
+        <h2>VS code</h2>
+        </p>
+    </header>
+
+    <nav></nav>
+
+    <main>
+        <section class="explorer">
+            <article>
+                <div class="titulo_explorer">
+                    <h3>Explorer</h3>
+                    <img src="img/Explorer/explorer icon.png" alt="">
+                    <div>
+                        <p>
+                            Muestra todos los archivos del proyecto
+                        </p>
+                        <div class="img_funcionexplorer">
+                            <img src="img/Explorer/explorerfuncion.png" alt="explorerfuncion">
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="search">
+            <article>
+                <div class="titulo-search">
+                    <h3>Search</h3>
+                    <img src="img/Search/search.png" alt="">
+                    <div>
+                        <p>
+                            Search o area, nos ayuda a buscar y remplazar palabras
+                        </p>
+                        <div class="img-funcion-search">
+                            <img src="img/Search/searchfuncion.png" alt="explorerfuncion">
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+
+
+
+        <section class="debug">
+            <article>
+                <div class="titulo-debug">
+                    <h3> Run and Debug (debugger)</h3>
+                    <img src="img/debuger/deguer_icon.png" alt="">
+                    <div>
+                        <p>
+                            Run and Debug (debugger) permite debugear el codigo, generando pausas y permitiendo revisar
+                            el codigo linea por linea.
+                        </p>
+                        <div class="img-funcion-debug">
+                            <img src="img/debuger/debugger.png" alt="explorerfuncion">
+                        </div>
+                        <div>
+                            <p>Lucas Dalto tiene un video que lo explica <a
+                                    href="https://www.youtube.com/watch?v=TbzrOz8HbFM&t=3110s">Run and Debug</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="extensiones">
+            <article>
+                <div class="titulo-extensiones">
+                    <h3>Extensiones</h3>
+                </div>
+
+                <div class="extensiones-recomendadas">
+                    <p>
+                        Utiliza Extensiones para persoalizar tu visualstudio. Algunas de las principales extensiones
+                        recomendadas son las siguientes:
+                    </p>
+                    <div class="extensiones-recomendadas-prettier">
+                        <b>Prettier</b>
+                        <p>Es una formateador de texto que nos ayuda a daarle formato al codigo sengun el lenguaje que
+                            se utilize.</p>
+                        <div>
+                            <img src="img/extenciones/prettier.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="extensiones-recomendadas-materialicon">
+                        <b>Material Ico Theme</b>
+                        <p>Modifica la apariencia de los iconos de los archivos.</p>
+                        <div>
+                            <img src="img/extenciones/materiaicontheme.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="extensiones-recomendadas-intellicode">
+                        <b>Inteli Code</b>
+                        <p>Nos ayuda con el autoacompletado que tiene por defecto Vscode.</p>
+                        <div>
+                            <img src="img/extenciones/intellicode.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="extensiones-recomendadas-liveserver">
+                        <p><b>Live Server</b></p>
+                        <p>Nos perite correr un servidor para que se ejecute nuestra pagina web.</p>
+                        <div>
+                            <img src="img/extenciones/Liverserver.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="extensiones-recomendadas-ident">
+                        <p><b>ident Rainbow</b></p>
+                        <p>Nos muestra como esta identado nuestro codigo.</p>
+                        <div>
+                            <img src="img/extenciones/ident.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </article>
+        </section>
+
+
+        <section class="configuracion">
+            <article>
+                <div class="titulo-configuracion">
+                    <h3>Configuracion </h3>
+                </div>
+                <div class="configuracion-autosave">
+                    <p><b>Auto Guardado</b></p>
+                    <p>"Toggle Auto Sabe nos permite que nuestro codigo se quede guardado auntomaticamete"</p>
+                    <img src="img/configuracion/autosave.png" alt="">
+                    <p>dandole un delay en settin.json podemos controlar el retraso en el tiempo de auto guardado me
+                        gusta dejarlo lo mas corto posible, pero puede probocar errores, las propiedades se manejan en
+                        milisegundos</p>
+                    <div class="code-container">
+                        <pre><code class="language-javascript">files.autoSaveDelay": 1000</code>
+                        </pre>
+                    </div>
+                </div>
+
+                <div class="configuracion-editorcursor">
+                    <p><b>Editor Cursor Blink</b></p>
+                    <p>nos permite editar la animacion de cursor desde la seccion de user setting JSON</p>
+
+                    <div class="code-container">
+                        <pre><code class="language-javascript"> "editor.cursorBlinking": "expand"</code>
+                        </pre>
+                    </div>
+
+
+
+                </div>
+
+                <div class="configuracion-linkedediting">
+                    <p><b>Linked Editing</b></p>
+                    <p>"Al activar esta opcion las etiquetas Html se borras el ambos lados"</p>
+                    <img src="img/configuracion/LinkedEditing.png" alt="">
+
+                    <div class="code-container">
+                        <pre><code class="language-javascript">"editor.linkedEditing": true</code>
+                        </pre>
+                    </div>
+                </div>
+
+                <div class="configuracion-enablepreview">
+                    <p><b>Enable Preview</b></p>
+                    <p>"Al activar esta opcion de "settings.json" los archivos se abren siempre en una nueva pestaña"
+                    </p>
+
+                    <div class="code-container">
+                        <pre><code class="language-javascript">"workbench.editor.enablePreview": false</code>
+                        </pre>
+                    </div>
+                </div>
+
+                <div class="configuracion-filesexclude">
+                    <p><b>files exclude</b></p>
+                    <p>"Al activar esta opcion de "settings.json" se muestran los archivos excluidos al moneto de
+                        importan una carpeta <br> <b>Ejemplo</b> <br> los archivos que terminan en .git no se importan "
+                    </p>
+
+                    <div class="code-container">
+                        <pre><code class="language-javascript">"files.exclude": {
+                            "**/.git": true,
+                            "**/.svn": true,
+                            "**/.hg": true,
+                            "**/CVS": true,
+                            "**/.DS_Store": true,
+                            "**/Thumbs.db": true
+                        }</code>
+                        </pre>
+                    </div>
+                </div>
+
+
+                <div class="configuracion-terminalintegrated">
+                    <p><b>Terminal Integrated</b></p>
+                    <p>permite cambiar el tamaño de la fuente de la terminal integrada</p>
+
+                    <div class="code-container">
+                        <pre><code class="language-javascript">"terminal.integrated.fontSize": 11</code>
+                        </pre>
+                    </div>
+                </div>
+
+                <div class="configuracion-editorfontsize">
+                    <p><b>Editor Fobnt Size</b></p>
+                    <p>permite cambiar el tamaño de la fuente del editor vscode</p>
+
+                    <div class="code-container">
+                        <pre><code class="language-javascript">"editor.fontSize": 20</code>
+                        </pre>
+                    </div>
+                </div>
+
+                <div class="configuracion-editorfontsize">
+                    <p><b>Tab Size</b></p>
+                    <p>cambia el numero de espacios en cadfa tabulacion</p>
+
+                    <div class="code-container">
+                        <pre><code class="language-javascript">"editor.tabSize": 4</code>
+                        </pre>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="word_wrap">
+            <article>
+                <div class="titulo-word_wrap">
+                    <h3>word_wrap</h3>
+
+                    <div>
+                        <p>
+                            Da un salto de linea automatico cuando el texto alcanza el borde de la ventana de vscode.
+                            Presionar ctrl + shif + p y buscar "toogle word wrap" para activarlo
+
+                        </p>
+                        <div class="acivar_word_wrap">
+                            <img src="img/word_wrap/activar_word_wrap.png" alt="">
+                        </div>
+                        <p><b>Ejemplo antes</b></p>
+                        <div class="word_wrap_antes">
+                            <img src="img/word_wrap/word_wrap_antes.png" alt="">
+
+                        </div>
+                        <p><b>Ejemplo despues</b></p>
+                        <div class="word_wrap_despues">
+                            <img src="img/word_wrap/word_wrap_despues.png" alt="">
+
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+
+        <section class="word_wrap">
+            <article>
+                <div class="titulo-word_wrap">
+                    <h2>Atajos</h2>
+
+                    <div>
+                        <p>
+                            <b>Guardad</b> Guarda los cmabios hecho en el editor<br>
+                            ctrl + s
+                        </p>
+                        <p>
+                            <b>Abrir</b> abre un archivo<br>
+                            ctrl + o
+                        </p>
+                        <p>
+                            <b>Abrir</b> abre una nueva instacia o nueva ventana<br>
+                            ctrl + n
+                        </p>
+                        <p>
+                            <b>cerrar</b> cierra un archivo<br>
+                            ctrl + w
+                        </p>
+                        <p>
+                            <b>buscar</b> busca en el buscador de archivos <br>
+                            ctrl + shif + f
+                        </p>
+
+                        <p>
+                            <b>paleta de comandos</b> abre la paleta de comandos<br>
+                            ctrl + p
+                        </p>
+
+                        <p>
+                            <b>copiar una linea</b> permite copiar toda la liena seleccionada<br>
+                            shif + alt + (arriba o abajo)
+                        </p>
+
+                        <p>
+                            <b>mover una linea</b> permite mover toda la liena seleccionada<br>
+                            alt + (arriba o abajo)
+                        </p>
+
+                        <p>
+                            <b>definicion</b> retorna la definicion de alguna propiedad del lenguaje<br>
+                            f12 <br>
+                            shif + f12
+                        </p>
+                        <p>
+                            <b>Remplazar</b> permite remplazar todas las palabras iguales dell codigo<br>
+                            ctrl + shif + l
+                        </p>
+                        <p>
+                            <b>cursores</b> crea multiples cursores<br>
+                            ctrl + alt + (arriba o abajo) <br>
+                            alt + (selecionar con el mouse)
+                        </p>
+
+                        <p>
+                            <b>desplaza</b>tabula toda una linea ala izquierda o ala derecha <br>
+                            ctrl + ´´ <br>
+                            ctrl + <br>
+                            son las teclas despues del 0 <br>
+                            '' para dezplazar ala izquierda <br>
+                            ¿ para desplzar ala derecha
+                        </p>
+
+                        <p>
+                            <b>cerrar segmento</b>cierra todo un segmento de codigo <br>
+                            ctrl + ´´ <br>
+                            ctrl + <br>
+                            son las teclas despues del 0 <br>
+                            '' para cerrar <br>
+                            ¿ para abrir
+                        </p>
+                        <p>
+                            <b>GO TO LINE</b> nos manda ala linea especificada <br>
+                            ctrl + g
+                        </p>
+                    </div>
+                </div>
+                </div>
+
+            </article>
+        </section>
+
+        <div class="code-container">
+            <pre><code class="language-CSS">/*Forma de colocar codigo en pagina web*/
+                <h1></h1>
+
+            </code></pre>
+
+        </div>
+
+    </main>
+
+    <aside>
+
+    </aside>
+
+    <footer>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/prism.min.js"></script>
+</body>
+
+</html>
